@@ -1,0 +1,21 @@
+version: 4.0.69
+steps:
+  - prompt: Click on the "Developers" link in the header.
+    commands:
+      - command: hover-text
+        text: Developers
+        description: link in the header
+        action: click
+  - prompt: Assert that the developer resources page is displayed.
+    commands:
+      - command: assert
+        expect: the developer resources page is displayed
+  - prompt: >-
+      Check for available developer tools and guides.  # Use the content of the
+      file from the environment
+    commands:
+      - command: scroll-until-text
+        text: Documentation
+        direction: down
+      - command: assert
+        expect: developer tools and guides are available
