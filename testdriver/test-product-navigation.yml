@@ -1,0 +1,22 @@
+version: 4.0.69
+steps:
+  - prompt: Hover over the "Products" menu.
+    commands:
+      - command: focus-application
+        name: Google Chrome
+      - command: hover-text
+        text: Products
+        description: menu item in the header
+        action: hover
+  - prompt: Click on a product link.
+    commands:
+      - command: hover-text
+        text: Chat SDK
+        description: product link under PubNub Platform
+        action: click
+  - prompt: >-
+      Assert that the correct product page is displayed.  # Use the content of
+      the file from the environment
+    commands:
+      - command: assert
+        expect: the page displays "Chat SDK"
