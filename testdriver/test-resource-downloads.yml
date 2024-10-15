@@ -1,0 +1,62 @@
+version: 4.0.69
+steps:
+  - prompt: Navigate to the "Resources" page.
+    commands:
+      - command: hover-text
+        text: Resources
+        description: link in the header
+        action: click
+  - prompt: Navigate to the "Resources" page.
+    commands:
+      - command: hover-text
+        text: Resources
+        description: link in the header
+        action: click
+  - prompt: Navigate to the "Resources" page.
+    commands:
+      - command: hover-text
+        text: Resources
+        description: link in the header
+        action: click
+  - prompt: Navigate to the "Resources" page.
+    commands:
+      - command: hover-text
+        text: Resources
+        description: link in the header
+        action: click
+  - prompt: Navigate to the "Resources" page.
+    commands:
+      - command: hover-text
+        text: Resources
+        description: link in the header
+        action: click
+  - prompt: Navigate to the "Resources" page.
+    commands:
+      - command: hover-text
+        text: Resources
+        description: link in the header
+        action: click
+  - prompt: Navigate to the "Resources" page.
+    commands:
+      - command: hover-text
+        text: Blog
+        description: first item in the Resources dropdown
+        action: click
+  - prompt: Navigate to the "Resources" page.
+    commands:
+      - command: hover-text
+        text: Resources
+        description: link in the header
+        action: click
+  - prompt: Navigate to the "Resources" page.
+    commands:
+      - command: hover-text
+        text: Resources
+        description: link in the header
+        action: click
+  - prompt: Navigate to the "Resources" page.
+    commands:
+      - command: hover-text
+        text: Resources
+        description: link in the header
+        action: click
